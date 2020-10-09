@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
+@keyframes rotacion { from { background-position-y: 0; }
+  to { background-position-y: -1800px; } }
+
+html { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; font-family: 'Roboto Condensed', sans-serif; }
+
+body { background: url(Astronomers-Assemble-Wide-View-of-the-Evolving-Universe.jpg); height: 100vh; width: 100%; background-size: auto; background-position-x: 35%; overflow-x: hidden; animation: rotacion 30s alternate ease-in-out infinite; }
+
+header { display: flex; justify-content: space-between; }
+
+#logo { width: 20vh; margin-left: 3vh; }
+
+.list { width: 80vh; display: flex; height: 10vh; justify-content: space-between; align-items: center; }
+
+.list li { margin-top: 5vh; }
+
+.list a { color: white; font-size: large; text-decoration: none; }
+/*# sourceMappingURL=styles.css.map */
