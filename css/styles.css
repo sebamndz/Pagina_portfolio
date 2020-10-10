@@ -15,7 +15,7 @@
 
 html { font-family: 'Roboto Condensed', sans-serif; }
 
-body { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; background: url(https://i.imgur.com/6LSbJBm.jpg); height: 100vh; width: 100%; background-size: auto; background-position-x: 35%; overflow-x: hidden; animation: rotacion 30s alternate ease-in-out infinite; }
+body { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; background: url(https://i.imgur.com/6LSbJBm.jpg); height: 100vh; width: 100%; background-size: auto; background-position-x: 35%; overflow-x: hidden; animation: rotacion 35s linear infinite; }
 
 header { width: 100%; display: flex; align-items: center; justify-content: space-evenly; }
 
