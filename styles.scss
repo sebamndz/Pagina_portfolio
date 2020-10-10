@@ -10,7 +10,7 @@ html {
   font-family: 'Roboto Condensed', sans-serif;
 }
 body {
-  background: url(Astronomers-Assemble-Wide-View-of-the-Evolving-Universe.jpg);
+  background: url(https://i.imgur.com/6LSbJBm.jpg);
   height: 100vh;
   width: 100%;
   background-size: auto;
@@ -35,6 +35,7 @@ margin-left: 3vh;
 }
 .list li {
   margin-top: 5vh;
+  list-style: none;
 }
 .list a {
   color: white;
