@@ -2,17 +2,15 @@
 @keyframes rotacion { from { background-position-y: 0; }
   to { background-position-y: -1800px; } }
 
-html { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; font-family: 'Roboto Condensed', sans-serif; }
+html { font-family: 'Roboto Condensed', sans-serif; }
 
-body { background: url(https://i.imgur.com/6LSbJBm.jpg); height: 100vh; width: 100%; background-size: auto; background-position-x: 35%; overflow-x: hidden; animation: rotacion 30s alternate ease-in-out infinite; }
+body { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; background: url(https://i.imgur.com/6LSbJBm.jpg); height: 100vh; width: 100%; background-size: auto; background-position-x: 35%; overflow-x: hidden; animation: rotacion 30s alternate ease-in-out infinite; }
 
-header { display: flex; justify-content: space-between; }
+header { height: 10vh; width: auto; margin: 2% 1%; display: flex; align-items: center; float: right; }
 
-#logo { width: 20vh; margin-left: 3vh; }
+.list { display: flex; justify-content: space-evenly; align-items: center; width: 90vh; height: 10vh; }
 
-.list { width: 80vh; display: flex; height: 10vh; justify-content: space-between; align-items: center; }
+.list li { list-style: none; }
 
-.list li { margin-top: 5vh; list-style: none; }
-
-.list a { color: white; font-size: large; text-decoration: none; }
+.list a { color: white; font-size: 20px; text-decoration: none; }
 /*# sourceMappingURL=styles.css.map */

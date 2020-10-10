@@ -3,13 +3,13 @@
   from {background-position-y: 0;}
   to {background-position-y: -1800px;}}
 html {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-body {
   background: url(https://i.imgur.com/6LSbJBm.jpg);
   height: 100vh;
   width: 100%;
@@ -19,26 +19,25 @@ body {
   animation: rotacion 30s alternate ease-in-out infinite;
 }
 header {
+  height: 10vh;
+  width: auto;
+  margin: 2% 1%;
   display: flex;
-  justify-content: space-between;
-}
-#logo {
-  width: 20vh;
-margin-left: 3vh;
+  align-items: center;
+  float: right;
 }
 .list {
-  width: 80vh;
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90vh;
   height: 10vh;
-  justify-content: space-between;
-  align-items: center
 }
 .list li {
-  margin-top: 5vh;
   list-style: none;
 }
 .list a {
   color: white;
-  font-size: large;
+  font-size: 20px;
   text-decoration: none;
 }
