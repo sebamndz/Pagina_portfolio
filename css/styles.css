@@ -1,7 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
-@keyframes rotacion { from { background-position-y: 0; }
-  to { background-position-y: -1800px; } }
-
 @keyframes animate { 0% { opacity: 0;
     fill: none;
     stroke-dashoffset: 2384; }
@@ -13,7 +10,7 @@
     fill: white;
     stroke-dashoffset: 0; } }
 
-html, body { font-family: 'Roboto Condensed', sans-serif; margin: 0; padding: 0; box-sizing: border-box; background: url(https://i.imgur.com/6LSbJBm.jpg); height: fit-content; width: 100%; background-size: cover; animation: rotacion 35s linear infinite; }
+html, body { font-family: 'Roboto Condensed', sans-serif; margin: 0; padding: 0; box-sizing: border-box; background-color: black; height: fit-content; width: 100%; }
 
 header { width: 100%; display: flex; align-items: center; justify-content: space-evenly; }
 
