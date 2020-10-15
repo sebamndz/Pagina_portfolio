@@ -21,10 +21,10 @@
 }
 @keyframes border-animation {
   from {
-    opacity: 0.5;
+    color: white;
   }
   to {
-    opacity: 1;
+    color: gray;
   }
 }
 html, body {
@@ -58,7 +58,6 @@ header {
   text-decoration: none;
   border-bottom: none;
   &:hover {
-    opacity: 1;
     color: gray;
     border-bottom: 2px solid white;
     animation: border-animation 0.5s ease;
