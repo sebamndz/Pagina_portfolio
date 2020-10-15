@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
+html {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgba($color: #000000, $alpha: 1);
+  height: 200vh;
+}
+.header {
+  width: 100%;
+  height: 10vh;
+  ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70vh;
+    float: right;
+    a {
+      color: white;
+      font-size: 1.5rem;
+      text-decoration: none;
+    }
+  }
+}
+main {
+  height: 100vh;
+  width: 100%;
+  #fondo {
+    svg {
+      width: 80%;
+      transform: translate(12%, 90%);
+    }
+  }
+  #firma svg {
+    width: 80%;
+    fill: white;
+    transform: translate(12%, -80%);
+  }
+}
