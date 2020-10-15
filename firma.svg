@@ -1,21 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="css/styles.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-</head>
-<body>
-    <header>
-            <ul class="list">
-                <li><a href="#Projects">Projects</a></li>
-                <li><a href="#About">About</a></li>
-                <li><a href="#Contact">Contact</a></li>
-            </ul>
-    </header>
-    <div id="firma">
-        <svg version="1.1" id="Capa_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+<svg version="1.1" id="Capa_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1185 582"
 style="enable-background:new 0 0 1185 582;" xml:space="preserve">
     <g>
@@ -87,14 +70,3 @@ style="enable-background:new 0 0 1185 582;" xml:space="preserve">
             c7.5-10.5,16.2-20.5,26.2-30c10-9.5,20.5-17.9,31.4-25.2c10.9-7.3,21.9-13.3,33-18C990.5,289.7,1000.8,287.1,1010.4,286.6z"/>
     </g>
 </svg>
-</div>
-<section href="#Projects" class="section_1">
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, laudantium! Magni cumque rerum doloribus optio aliquid dignissimos officia vel natus in earum dolore facere, accusamus et eaque culpa quae dolorem.</p>
-</section>
-<section class="section_2">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sit?</p>
-</section>
-    <footer>
-    </footer>
-</body>
-</html>
